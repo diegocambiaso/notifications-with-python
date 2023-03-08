@@ -1,3 +1,5 @@
+# Example of how to use a notifications system
+
 import time
 from plyer import notification
 from plyer import bluetooth
@@ -10,4 +12,3 @@ if __name__=="__main__":
             timeout=10
         )
         time.sleep(3600)
-
